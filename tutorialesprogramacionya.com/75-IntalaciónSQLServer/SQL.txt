@@ -1,0 +1,8 @@
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
+
+DESKTOP-1KMMNLQ
+
+SqlConnection conexion = new SqlConnection("Server=DESKTOP-1KMMNLQ; database=base_1; integrated security=true");
+
+DESKTOP-1KMMNLQ\SQLEXPRESS
