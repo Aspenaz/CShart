@@ -22,6 +22,7 @@ class Matriz3
                 Console.Write($"Ingrese componente [{f+1},{c+1}]: ");
                 mat[f, c] = int.Parse(Console.ReadLine());
             }
+            Console.WriteLine();    
         }
     }
 

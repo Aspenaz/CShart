@@ -44,7 +44,6 @@ class Matriz2
                 {
                     Console.Write($"{mat[f, c],2} ");
                 }
-                Console.WriteLine();
             }
             Console.WriteLine();
         }
