@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/* Problema 1:
+    Crear una matriz de n * m filas (cargar n y m por teclado) Imprimir 
+    la matriz completa y la última fila.
+*/
 
-namespace Problema1
+using System;
+
+class Matriz5
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }
+
