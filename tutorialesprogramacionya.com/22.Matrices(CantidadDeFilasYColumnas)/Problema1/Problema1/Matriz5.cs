@@ -1,4 +1,5 @@
-﻿/* Problema 1:
+﻿
+/* Problema 1:
     Crear una matriz de n * m filas (cargar n y m por teclado) Imprimir 
     la matriz completa y la última fila.
 */
@@ -19,9 +20,9 @@ class Matriz5
 
         matriz = new int[filas, columnas];
 
-        for(int c = 0; c < matriz.GetLength(0); c++)
+        for(int f = 0; f < matriz.GetLength(0); f++)
         {
-            for (int f = 0; f < matriz.GetLength(1); f++)
+            for (int c = 0; c < matriz.GetLength(1); c++)
             {
                 Console.Write($"Ingrese componente: ");
                 matriz[f,c] = int.Parse(Console.ReadLine());
@@ -40,6 +41,9 @@ class Matriz5
             }
             Console.WriteLine();    
         }
+
+        Console.WriteLine(matriz.GetLength(0));
+        Console.WriteLine(matriz.GetLength(1));
     }
 
 
@@ -47,7 +51,7 @@ class Matriz5
     {
         Console.WriteLine("\nUltima fila");
 
-        for(int c = 0; c < matriz.GetLength(1) - 1; c++)
+        for(int c = 0; c < matriz.GetLength(1); c++)
         {
             Console.Write(matriz[matriz.GetLength(0) - 1, c] + " ");
         }
@@ -64,4 +68,31 @@ class Matriz5
         Console.ReadKey();
     }
 }
+
+
+
+/*
+ 
+Ingrese cantidad de filas: 3
+Ingresa cantida de columnas: 3
+Ingrese componente: 11
+Ingrese componente: 1
+Ingrese componente: 2
+
+Ingrese componente: 3
+Ingrese componente: 4
+Ingrese componente: 11
+
+Ingrese componente: 5
+Ingrese componente: 6
+Ingrese componente: 90
+
+11  1  2
+ 3  4 11
+ 5  6 90
+
+Ultima fila
+5 6 90
+
+*/
 
