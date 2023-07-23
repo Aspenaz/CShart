@@ -49,7 +49,7 @@ class Matriz6
             }
         }
         Console.WriteLine("El elemento mayor es: " + mayor);
-        Console.WriteLine("Se encuentra en la fima: " + filaMayor + " y en la columna: " + columnaMayor);
+        Console.WriteLine("Se encuentra en la fila: " + filaMayor + " y en la columna: " + columnaMayor);
         Console.ReadLine();
     }
 

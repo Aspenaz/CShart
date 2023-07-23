@@ -20,9 +20,9 @@ class Matriz5
 
         matriz = new int[filas, columnas];
 
-        for(int f = 0; f < matriz.GetLength(0); f++)
+        for(int f = 0; f < matriz.GetLength(0); f++) // # Fila
         {
-            for (int c = 0; c < matriz.GetLength(1); c++)
+            for (int c = 0; c < matriz.GetLength(1); c++) // # Columna
             {
                 Console.Write($"Ingrese componente: ");
                 matriz[f,c] = int.Parse(Console.ReadLine());
@@ -42,8 +42,8 @@ class Matriz5
             Console.WriteLine();    
         }
 
-        Console.WriteLine(matriz.GetLength(0));
-        Console.WriteLine(matriz.GetLength(1));
+        Console.WriteLine(matriz.GetLength(0));  // # Fila
+        Console.WriteLine(matriz.GetLength(1));  // # Columna
     }
 
 
