@@ -56,7 +56,7 @@ class Matriz9
 
     public void ImprimirTotalPagado()
     {
-        Console.WriteLine("Total de sueldos pagados por empleados: ");
+        Console.WriteLine("\nTotal de sueldos pagados por empleados: ");
 
         for(int f = 0; f < sueldosTotal.Length; f++)
         {
@@ -94,31 +94,33 @@ class Matriz9
     }
 }
 
-
-
 /*
 
-Ingrese nombre del empleado: JF Kennedy
-Ingrese sueldo: 25000
-Ingrese sueldo: 23000
-Ingrese sueldo: 43000
-Ingrese nombre del empleado: Miguel Velasquez
-Ingrese sueldo: 5000
-Ingrese sueldo: 4000
-Ingrese sueldo: 3000
-Ingrese nombre del empleado: Jhonn
-Ingrese sueldo: 25000
-Ingrese sueldo: 23000
-Ingrese sueldo: 24000
-Ingrese nombre del empleado: Loreto
-Ingrese sueldo: 12000
-Ingrese sueldo: 14000
-Ingrese sueldo: 13000
-Total de sueldos pagados por empleados
-JF Kennedy - 91000
-Miguel Velasquez - 12000
-Jhonn  - 72000
-Loreto - 39000
-El empleado con mayor sueldo es JF Kennedy que tiene un sueldo de 91000
+Ingrese nombre del empleado: JK
+Ingrese sueldo: 25
+Ingrese sueldo: 32
+Ingrese sueldo: 22
+
+Ingrese nombre del empleado: KF
+Ingrese sueldo: 16
+Ingrese sueldo: 25
+Ingrese sueldo: 22
+
+Ingrese nombre del empleado: po
+Ingrese sueldo: 32
+Ingrese sueldo: 45
+Ingrese sueldo: 50
+
+Ingrese nombre del empleado: FK
+Ingrese sueldo: 25
+Ingrese sueldo: 46
+Ingrese sueldo: 57
+
+Total de sueldos pagados por empleados:
+JK - 79
+KF - 63
+po - 127
+FK - 128
+El empleado con mayor sueldo es FK que tiene un sueldo de 128
 
 */
